@@ -1,8 +1,8 @@
-<title>Contact Form</title>  
+<title>Contact From</title>
 <meta content='width=device-width, initial-scale=1' name='viewport'>
 <link href='https://fonts.googleapis.com/css?family=Pacifico:100,200,300,400italic,400,500,500italic,700,700italic,900%7CMaterial+Icons' rel='stylesheet' type='text/css'/>
 <style>
-body{background-color:white;margin:0;padding:0 30px;color:#666;font-family:'Roboto',sans-serif;}
+body{background-color:rgba(0, 0, 0, 0.87);margin:0;padding:0 30px;color:#fff;font-family:'Roboto',sans-serif;}
 .contact-box{overflow:hidden;}
 h1,h2,h3{text-align:center;}
 #contactForm input:focus~label,#contactForm input:valid~label,#contactForm textarea:focus~label,#contactForm textarea:valid~label{font-size:.75em;color:#3893e2;top:-2.25rem;-webkit-transition:all 125ms ease;transition:all 125ms ease}
@@ -42,9 +42,9 @@ var titleblog = getQueryVariable('title').replace(/%20/g, " ");
 <div class="contact-box">
 <h1>Contact Form</h1>
 <script>
-document.write('<h2>'+Amp Templates+'</h2>\
-<form action="https://formspree.io/'+ antoncabon77@gmail.com +'" method="POST" target="_blank" name="sentMessage" id="contactForm">\
-<input type="hidden" name="_next" value="'+ http://www.antoncabon.us/p/thanks.html +'" />\
+document.write('<h2>'+titleblog+'</h2>\
+<form action="https://formspree.io/'+ emailform +'" method="POST" target="_blank" name="sentMessage" id="contactForm">\
+<input type="hidden" name="_next" value="'+ urlthanks +'" />\
     <div class="styled-input">\
       <div class="styled-input-in">\
       <input type="text" name="name" required />\
@@ -68,6 +68,6 @@ document.write('<h2>'+Amp Templates+'</h2>\
     <button type="submit" class="btn btn-default">Send</button>\
     <input type="text" name="_gotcha" class="gotcha" />\
   </form>\
-  <h3>Back to <a href="'+ www.antoncabon.us +'" title="Homepage">Homepage</a></h3>');
+  <h3>Back to <a href="'+ urlblog +'" title="Homepage">Homepage</a></h3>');
   </script>
 </div>
